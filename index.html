@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2> Register </h2>
+        <form id="registrationForm" action="#" method="post">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" >
+        <span class="error" id="firstnameError"></span>
+
+        <label for="middlename">Middle Name</label>
+        <input type="text" id="middlename" name="middlename" >
+        <span class="error" id="middlenameError"></span>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" >
+        <span class="error" id="lastnameError"></span>
+
+        <label for="batch">Batch</label>
+        <input type="text" id="batch" name="batch" >
+        <span class="error" id="batchError"></span>
+
+        <label for="technology">Technology</label>
+        <input type="text" id="technology" name="technology" >
+        <span class="error" id="technologyError"></span>
+
+         <label for="id">ID Number</label>
+         <input type="text" id="id" name="id">
+         <span class="error" id="idError"></span>
+
+
+        <label for="contactnumber">Contact Number</label>
+        <input type="tel" id="contactnumber" name="contactnumber" >
+        <span class="error" id="contactError"></span>
+
+        <button type="submit">Register</button>
+</form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
